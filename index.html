@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高雄現代建築地標網</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        h1 { margin: 0; font-size: 2.5em; }
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .intro-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .card:hover { transform: translateY(-5px); }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-content { padding: 20px; }
+        .card-content h3 { margin-top: 0; color: #1e3c72; }
+        .btn {
+            display: inline-block;
+            background: #1e3c72;
+            color: #fff;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .btn:hover { background: #2a5298; }
+        .reflection-section {
+            background: #eef2f7;
+            padding: 30px;
+            border-left: 5px solid #1e3c72;
+            border-radius: 4px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>探索高雄：現代建築美學導覽</h1>
+        <p>聚焦港都前衛建築，展現城市與空間設計的對話</p>
+    </header>
+
+    <div class="container">
+        <h2>精選建築地標</h2>
+        <div class="intro-grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1629115911571-04287c88b022?auto=format&fit=crop&w=600&q=80" alt="高雄流行音樂中心">
+                <div class="card-content">
+                    <h3>高雄流行音樂中心</h3>
+                    <p>以海洋元素為設計核心，獨特的蜂巢幾何外觀劃破港灣天際線，是南台灣指標性的音樂藝文殿堂。</p>
+                    <a href="2nd.html" class="btn">查看詳細介紹 &rarr;</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=600&q=80" alt="高雄港旅運中心">
+                <div class="card-content">
+                    <h3>高雄港旅運中心</h3>
+                    <p>充滿未來感的全形體流線設計，宛如一艘停泊於港岸的銀白色巨輪，展現極致的結構美學與科技感。</p>
+                    <a href="3rd.html" class="btn">查看詳細介紹 &rarr;</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80" alt="高雄市立圖書館總館">
+                <div class="card-content">
+                    <h3>高雄市立圖書館總館</h3>
+                    <p>全球首座懸吊式綠建築，將森林意象融入室內空間，創造出通透、無柱的現代閱讀環境。</p>
+                    <a href="4th.html" class="btn">查看詳細介紹 &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="reflection-section">
+            <h3>網頁設計與建築美學心得</h3>
+            <p>將實體建築的空間感轉化為網頁的網格系統（Grid System），是一次非常有趣的跨界嘗試...</p>
+            <a href="5th.html" class="btn" style="background: #2c3e50;">閱讀完整學習心得 &rarr;</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 高雄建築地標個人網站展示. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
